@@ -1,11 +1,11 @@
 ansible_user: ec2-user  
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-dev.soumyadevops.space
-CATALOGUE_HOST: catalogue-dev.soumyadevops.space
-REDIS_HOST: redis-dev.soumyadevops.space
-USER_HOST: user-dev.soumyadevops.space
-CART_HOST: cart-dev.soumyadevops.space
-MYSQL_HOST: mysql-dev.soumyadevops.space
-SHIPPING_HOST: shipping-dev.soumyadevops.space
-RABBITMQ_HOST: rabbitmq-dev.soumyadevops.space
-PAYMENT_HOST: payment-dev.soumyadevops.space
+MONGODB_HOST: mongodb-{{ env }}.soumyadevops.space
+CATALOGUE_HOST: catalogue-{{ env }}.soumyadevops.space
+REDIS_HOST: redis-{{ env }}.soumyadevops.space
+USER_HOST: user-{{ env }}.soumyadevops.space
+CART_HOST: cart-{{ env }}.soumyadevops.space
+MYSQL_HOST: mysql-{{ env }}.soumyadevops.space
+SHIPPING_HOST: shipping-{{ env }}.soumyadevops.space
+RABBITMQ_HOST: rabbitmq-{{ env }}.soumyadevops.space
+PAYMENT_HOST: payment-{{ env }}.soumyadevops.space
